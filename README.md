@@ -1,5 +1,4 @@
 # CSCI 455/555: GenAI for SD - Assignment 1
-## Recommending Code Tokens via N-gram Models
 
 **Author:** Nathaniel Callabresi  
 **Course:** CSCI 455/555: GenAI for Software Development  
