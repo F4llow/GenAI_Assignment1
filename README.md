@@ -34,7 +34,7 @@ The Jupyter Notebook includes !pip install commands in the relevant cells to aut
 
 To successfully execute the pipeline and ensure the provided test data is read correctly, you must follow these exact steps:
 
-1. **Run the initial setup cells:** Start by running the first few cells of Callabresi_Assignment1.ipynb. Stop once you have executed the cell that creates the dataset/ngram_dataset/ directory and generates the MSR split files.
+1. **Run the initial setup cells:** Start by running the first 10 cells of Callabresi_Assignment1.ipynb. Stop once you have executed the cell that creates the dataset/ngram_dataset/ directory and generates and saves the MSR split files.
 2. **Upload the provided test set:** At this point, the notebook has created the following 5 text files inside the dataset/ngram_dataset/ directory:
    * train.txt
    * val.txt
