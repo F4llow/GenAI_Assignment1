@@ -91,7 +91,7 @@ During the evaluation phase, several hyper-parameters were systematically tuned:
 * **Lidstone Gamma ($\gamma$):** Set to 0.01.
   * Reasoning: Standard Laplace smoothing ($\gamma = 1$) takes too much probability mass away from observed n-grams, especially in tasks with massive, sparse vocabularies like source code. A much smaller gamma (0.01) successfully smoothed the zero-frequency n-grams without heavily penalizing the probabilities of known patterns.
 * **Unknown Token Cutoff (UNK_LIMIT):** Set to 3.
-  * Reasoning: Any token appearing fewer than 3 times in the training data was mapped to an <UNK> token. This dynamically filtered out obscure, project-specific variable names or typos, effectively mitigating the vocabulary explosion problem and improving generalizability.
+  * Reasoning: Any token appearing fewer than 3 times in the training data was mapped to a `<UNK>` token. This dynamically filtered out obscure, project-specific variable names or typos, effectively mitigating the vocabulary explosion problem and improving generalizability.
 
 ---
 
