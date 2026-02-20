@@ -55,7 +55,7 @@ After running the complete notebook, the following critical files will be genera
 * **metadata.json:** Tracks which GitHub repositories and files were used, dataset statistics, and instructions for replicating the splits.
 * **best_ngram_model.pkl:** A serialized (pickled) version of the best-performing N-gram model. This is saved for use in the command-line interface.
 * **results-xxxxxx.json:** The structured JSON output containing the context windows, predicted tokens, probabilities, and overall perplexity evaluated on the provided_test.txt dataset.
-* **results-yyyyyy.json:** The structured JSON output evaluated on the self-created test set (test.txt / test1.txt data).
+* **results-yyyyyy.json:** The structured JSON output evaluated on the self-created test dataset.
 
 ---
 
